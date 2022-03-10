@@ -9,17 +9,24 @@ const Home = () => {
     <div className="home">
       <Container fluid>
         <Row>
-          <Col className="home-left-col">
-            <Logo />
+          <Col xs={12} className="home-row-name">
+            <div id="home-name">
+              <div style={{ marginLeft: "-30vw" }}>Donovan</div>
+              <div style={{ marginLeft: "30vw" }}>Odom</div>
+            </div>
           </Col>
-
-          <Col className="home-right-col">
+          <Col className="home-row-1-col">
             <Fade left>
-              Donovan Odom is a Ruby on Rails-loving, design-adept, Full Stack
-              Software developer settled in Seattle, WA
-              <div style={{ display: "inline" }}> &#127783;</div>
+              <div>
+                Ruby on Rails-loving, design-adept, Full Stack Software
+                developer settled in Seattle, WA
+                <div style={{ display: "inline" }}> &#127783;</div>
+              </div>
             </Fade>
           </Col>
+        </Row>
+        <Row>
+          <Col className="home-row-2-col"></Col>
         </Row>
       </Container>
     </div>
