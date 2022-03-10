@@ -1,2 +1,2 @@
-# greyscale-portfolio
+# portfolio-redesign
 Created with CodeSandbox
