@@ -14,10 +14,10 @@ const Nav = () => {
       <div className="nav-logo">
         <Logo />
       </div>
-      <div className="nav-link">Home</div>
-      <div className="nav-link">About</div>
-      <div className="nav-link">Blog</div>
-      <div className="nav-link">Contact</div>
+      <div className="nav-link">HOME</div>
+      <div className="nav-link">ABOUT</div>
+      <div className="nav-link">BLOG</div>
+      <div className="nav-link">CONTACT</div>
     </div>
   );
 };
