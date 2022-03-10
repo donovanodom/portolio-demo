@@ -13,7 +13,7 @@ const Nav = () => {
       <div>Home</div>
       <div>About</div>
       <div>Blog</div>
-      <div>Contact/Resume</div>
+      <div>Contact</div>
     </div>
   );
 };
