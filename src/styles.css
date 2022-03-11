@@ -13,9 +13,9 @@
 }
 @font-face {
   font-family: "Thunder-ExtraBoldLC";
-  src: local("Thunder-ExtraBoldLC"),
-    url("./fonts/Thunder-ExtraBoldLC.woff2") format("woff2"),
-    url("./fonts/Thunder-ExtraBoldLC.woff") format("woff");
+  src: url("fonts/Thunder-ExtraBoldLC.woff2") format("woff2"),
+    url("fonts/Thunder-ExtraBoldLC.ttf") format("truetype"),
+    url("fonts/Thunder-ExtraBoldLC.woff") format("woff");
 }
 .App {
   text-align: center;
@@ -28,11 +28,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 40vw;
+  height: 30vw;
 }
 #home-title {
   height: 14vw;
-  font-family: Thunder-ExtraBoldLC, Arial, Helvetica;
+  font-family: Thunder-ExtraBoldLC;
   font-size: 14vw;
   letter-spacing: -0.15vw;
 }
@@ -43,27 +43,30 @@
   letter-spacing: -0.15vw;
   width: 62vw;
 }
-#bubble-pink {
-  z-index: -3;
+#me {
+  z-index: -9;
   position: absolute;
-  top: 8vw;
-  left: 16vw;
-  height: 14vw;
-  width: 14vw;
-  border-radius: 50%;
-  border: 2px solid var(--tuft);
+  top: 15.8vw;
 }
-#bubble-purple {
-  z-index: -5;
-  position: absolute;
-  top: 21vw;
-  left: 74vw;
-  height: 10.8vw;
-  width: 10.8vw;
-  border-radius: 50%;
-  border: 2px solid var(--night);
+.socials {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  font-size: 22px;
+}
+.socials a {
+  color: var(--blu);
+}
+#vert-line {
+  position: relative;
+  bottom: 20px;
+  left: 9px;
+  height: 30vh;
+  width: 0px;
+  border: 1px solid var(--blu);
 }
 .nav {
+  z-index: 10;
   font-size: 11.4px;
   color: var(--off-black);
   position: fixed;

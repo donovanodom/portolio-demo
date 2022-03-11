@@ -4,8 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Blog from "./Blog/Blog";
 import Nav from "./Nav";
 import About from "./About/About";
-import Contact from "./Contact/Contact";
-import Footer from "./Footer";
+import Projects from "./Projects/Projects";
 
 export default function App() {
   return (
@@ -13,10 +12,12 @@ export default function App() {
       <Nav />
       <div className="cur-pad">
         <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/blog" element={<Blog />} />
           <Route path="/*" element={<Home />} />
         </Routes>
       </div>
-      <Footer />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import { BsGithub, BsMedium, BsLinkedin } from "react-icons/bs";
 
-const Contact = () => {
+const Projects = () => {
   const icon = {
     position: "relative",
     bottom: "2px"
@@ -29,4 +29,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Projects;
