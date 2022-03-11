@@ -1,15 +1,18 @@
 import { Container, Col, Row } from "react-bootstrap";
-import TextLoop from "react-text-loop";
+import { Fade, Zoom } from "react-reveal";
+import { useState } from "react";
 
 const About = () => {
+  const [aboutView, setAboutView] = useState(false);
+
   const skills = [
     "JavaScript",
     "Ruby on Rails",
     "ReactJS",
     "CSS",
+    "Audio Engineering",
     "HTML",
     "AWS",
-    "Audio Engineering",
     "Sound Design",
     "Graphic Design",
     "Photoshop"
@@ -18,7 +21,7 @@ const About = () => {
 
   return (
     <div className="about">
-      <Container>
+      <Container fluid>
         <Row>
           <Col>
             THANK YOU FOR VISITING MY PORTFOLIO! My name is Donovan, or Don- I’m
@@ -42,12 +45,14 @@ const About = () => {
             me, please email{" "}
             <div style={{ display: "inline" }}>dodomdev@gmail.com</div>
           </Col>
-          <Col>
-            <TextLoop>
-              {skills.map((skill) => (
-                <div className="skill-list">{skill}</div>
-              ))}
-            </TextLoop>
+          <Col className="about-right">
+            {skills.map((skill, index) => (
+              <div>
+                <Zoom clear delay={index * 500}>
+                  <div className="skill-list">{skill}</div>
+                </Zoom>
+              </div>
+            ))}
           </Col>
         </Row>
       </Container>

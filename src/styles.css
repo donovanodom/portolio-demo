@@ -7,9 +7,10 @@
   --shine: #144eec;
   --blu: #6d7bf7;
   --night: #9235b8;
-  --lot: rgb(247, 226, 218);
+  --lot: rgb(238, 97, 54);
   --tuft: #e81276;
   --silver: #757475;
+  --grey: rgb(241, 241, 241);
 }
 @font-face {
   font-family: "Thunder-ExtraBoldLC";
@@ -69,16 +70,29 @@
   border: 1px solid var(--blu);
 }
 .about {
-  padding: 20px;
+  padding: 20px 40px;
   display: flex;
   width: 100vw;
   text-align: left;
   color: (var(--off-black));
   font-size: 1em;
+  background: var(--grey);
 }
-.skill-list {
-  font-size: 3vw;
+.about-right {
+  height: inherit;
   font-weight: 500;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.skill-list {
+  background: var(--tuft);
+  color: white;
+  width: fit-content;
+  padding: 2px 8px;
+  border-radius: 2px;
+  margin: 0 auto;
 }
 .nav {
   z-index: 10;
@@ -97,7 +111,7 @@
   letter-spacing: 2px;
 }
 #nav-line {
-  border: solid 1px var(--shine);
+  border: solid 1px var(--off-black);
   flex-grow: 0.2;
   margin-left: 50px;
 }
@@ -109,6 +123,9 @@
   cursor: pointer;
 }
 .nav-logo {
+  width: 50px;
+  height: 50px;
+  background: white;
   position: absolute;
   left: 20px;
   top: 0;

@@ -3,6 +3,7 @@ import "./styles.css";
 import { Route, Routes } from "react-router-dom";
 import Nav from "./Nav";
 import About from "./About/About";
+import Projects from "./Projects/Projects";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
               <>
                 <Home />
                 <About />
+                <Projects />
               </>
             }
           />
