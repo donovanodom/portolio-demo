@@ -23,8 +23,12 @@ const Nav = () => {
       <Link to="/about" style={{ textDecoration: "none" }}>
         <div className="nav-link">ABOUT</div>
       </Link>
-      <div className="nav-link">PROJECTS</div>
-      <div className="nav-link">BLOG</div>
+      <Link to="/projects" style={{ textDecoration: "none" }}>
+        <div className="nav-link">PROJECTS</div>
+      </Link>
+      <Link to="/blog" style={{ textDecoration: "none" }}>
+        <div className="nav-link">BLOG</div>
+      </Link>
     </div>
   );
 };
