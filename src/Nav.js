@@ -14,6 +14,7 @@ const Nav = () => {
       <div className="nav-logo">
         <Logo />
       </div>
+      <div id="nav-line"></div>
       <div className="nav-link">HOME</div>
       <div className="nav-link">ABOUT</div>
       <div className="nav-link">BLOG</div>
