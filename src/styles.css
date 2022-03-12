@@ -201,6 +201,64 @@
   height: 3.8vw;
   padding: 0.2vw 1vw;
 }
+.blog {
+  background-color: var(--grey);
+}
+.blog-card {
+  padding: 10px 30px;
+}
+.blog-details {
+  text-align: left;
+}
+.blog-details h2 {
+  font-size: 22px;
+}
+.blog-filter-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 17.1px;
+  font-size: 11.4px;
+  color: var(--off-black);
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.blog-filter-card {
+  padding: 2px 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#blog-filter-card-select {
+  color: white;
+  transition: background ease 0.3s;
+}
+#blog-filter-card-non-select {
+  transition: background ease 0.3s;
+}
+#lang {
+  z-index: 3;
+}
+.filter-background {
+  z-index: 1;
+  position: relative;
+  top: 17.1px;
+  border-radius: 2px;
+  height: 17.1px;
+  width: calc(100% + 3vw);
+  background: var(--blu);
+  transition: width ease 0.3s;
+}
+.filter-background-null {
+  z-index: -3;
+  position: relative;
+  top: 17.1px;
+  border-radius: 2px;
+  height: 17.1px;
+  width: 0;
+  background: var(--blu);
+}
 .nav {
   z-index: 10;
   font-size: 11.4px;
@@ -236,6 +294,11 @@
   left: 20px;
   top: 0;
   border-radius: 50%;
+}
+.footer {
+  width: 100%;
+  height: 50vw;
+  background-color: var(--blu);
 }
 
 @media screen and (max-width: 900px) {

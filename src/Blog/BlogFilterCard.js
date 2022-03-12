@@ -1,16 +1,18 @@
 import React from "react";
-import Dropdown from "react-bootstrap/Dropdown";
 
 const BlogFilterCard = ({ lang, active, onClick }) => {
   return (
-    <Dropdown.Item
+    <div
       eventKey="1"
       className="blog-filter-card"
       onClick={onClick}
-      id={active ? "blog-filter-card-select" : null}
+      id={active ? "blog-filter-card-select" : "blog-filter-card-non-select"}
     >
-      {lang}
-    </Dropdown.Item>
+      <div
+        className={active ? "filter-background" : "filter-background-null"}
+      ></div>
+      <div id="lang">{lang.toUpperCase()}</div>
+    </div>
   );
 };
 

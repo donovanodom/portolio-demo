@@ -1,32 +1,22 @@
 import React from "react";
-import { Col, Card } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import moment from "moment";
 
 const BlogCard = ({ link, title, image, date, author }) => {
-  const titleStyle = {
-    display: "-webkit-box",
-    WebkitLineClamp: "2",
-    WebkitBoxOrient: "vertical",
-    overflow: "hidden",
-    fontSize: "18px",
-    fontWeight: "800",
-    textAlign: "left",
-    width: "100%"
-  };
   return (
-    <Col sm={12} xxl={6}>
-      <Card className="blog-card">
-        <Card.Body className="blog-body">
-          <Card.Img className="blog-image" src={image} />
+    <Col sm={12} lg={6} xxl={4}>
+      <div className="blog-card">
+        <div className="blog-body">
+          {/*<img alt='thumbnail' className="blog-image" src={image} />*/}
           <div className="blog-details">
-            <Card.Title style={titleStyle}>
+            <h2>
               <a
                 style={{ color: "inherit", textDecoration: "none" }}
                 href={link}
               >
                 {title}
               </a>
-            </Card.Title>
+            </h2>
             <div>{moment(date).format("MMMM Do YYYY")}</div>
             <div>
               by:{" "}
@@ -38,8 +28,8 @@ const BlogCard = ({ link, title, image, date, author }) => {
               </a>
             </div>
           </div>
-        </Card.Body>
-      </Card>
+        </div>
+      </div>
     </Col>
   );
 };

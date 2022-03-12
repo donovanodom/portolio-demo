@@ -2,8 +2,10 @@ import Home from "./Home/Home";
 import "./styles.css";
 import { Route, Routes } from "react-router-dom";
 import Nav from "./Nav";
+import Footer from "./Footer";
 import About from "./About/About";
 import Projects from "./Projects/Projects";
+import Blog from "./Blog/Blog";
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
                 <Home />
                 <About />
                 <Projects />
+                <Blog />
+                <Footer />
               </>
             }
           />

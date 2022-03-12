@@ -2,8 +2,9 @@ import React from "react";
 import BlogFilterContainer from "./BlogFilterContainer";
 import BlogContainer from "./BlogContainer";
 import { useState, useEffect } from "react";
+import Auto from "../auto";
 
-const Blog = ({ active }) => {
+const Blog = () => {
   const mediumURL =
     "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@donovanodom";
 
@@ -34,14 +35,14 @@ const Blog = ({ active }) => {
   );
 
   return (
-    <div className="blog">
+    <Auto duration={500} height={"auto"}>
       <BlogFilterContainer
         activeLang={activeLang}
         langs={langs}
         setActiveLang={setActiveLang}
       />
       <BlogContainer posts={activeLang === "All" ? blog.item : filteredBlogs} />
-    </div>
+    </Auto>
   );
 };
 
