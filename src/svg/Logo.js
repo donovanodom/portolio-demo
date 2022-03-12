@@ -18,7 +18,7 @@ function Logo() {
       ></path>
       <path
         fill="none"
-        stroke="rgba(255,255,255,0)"
+        stroke="#e81276"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2"
@@ -26,7 +26,7 @@ function Logo() {
       ></path>
       <path
         fill="none"
-        stroke="rgba(255,255,255,0)"
+        stroke="#e81276"
         strokeLinecap="round"
         strokeLinejoin="round"
         strokeWidth="2"
