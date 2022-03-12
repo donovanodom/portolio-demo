@@ -1,5 +1,10 @@
 import { Container, Col, Row } from "react-bootstrap";
-import { BsGithub, BsMedium, BsLinkedin } from "react-icons/bs";
+import {
+  BsGithub,
+  BsMedium,
+  BsLinkedin,
+  BsArrow90DegRight
+} from "react-icons/bs";
 import Fade from "react-reveal/Fade";
 import Me from "../svg/Me";
 
@@ -10,27 +15,23 @@ const Home = () => {
         <Row>
           <Col xs={12}>
             <div className="home-name">
-              <Fade delay={600} duration={1000}>
+              <Fade delay={1000} duration={1000}>
                 <div id="home-title">DONOVAN ODOM</div>
               </Fade>
-              <Fade delay={1500} duration={1000}>
-                <div id="bubble-pink"></div>
-              </Fade>
-              <Fade delay={1200} duration={1400}>
-                <div id="bubble-purple"></div>
-              </Fade>
-              <Fade left>
+              <Fade delay={1400} left>
                 <div className="home-subtitle">
                   RUBY ON RAILS-LOVING, DESIGN-ADEPT, FULL STACK SOFTWARE
                   DEVELOPER
                 </div>
+              </Fade>
+              <Fade delay={1400} clear duration={2000}>
                 <div id="me">
                   <Me />
                 </div>
               </Fade>
             </div>
             <div className="socials">
-              <Fade top>
+              <Fade delay={800} top>
                 <div id="vert-line"></div>
               </Fade>
               <ul style={{ listStyle: "none", padding: "0" }}>
@@ -51,11 +52,15 @@ const Home = () => {
                 </li>
               </ul>
             </div>
+            <div className="scroll-graphic">
+              <div style={{ transform: "rotate(270deg)" }}>
+                <div className="scroll-text">SCROLL</div>
+                <div className="scroll-icon">
+                  <BsArrow90DegRight />
+                </div>
+              </div>
+            </div>
           </Col>
-          <Col className="home-row-1-col"></Col>
-        </Row>
-        <Row>
-          <Col className="home-row-2-col"></Col>
         </Row>
       </Container>
     </div>

@@ -23,7 +23,7 @@ const About = () => {
     <div className="about">
       <Container fluid>
         <Row>
-          <Col>
+          <Col lg={6}>
             THANK YOU FOR VISITING MY PORTFOLIO! My name is Donovan, or Don- I’m
             a FullStack web developer that specializes in React, JavaScript &
             Redux frontend & Ruby/RoR backend. I enjoy organizing ways to make
@@ -45,7 +45,7 @@ const About = () => {
             me, please email{" "}
             <div style={{ display: "inline" }}>dodomdev@gmail.com</div>
           </Col>
-          <Col className="about-right">
+          <Col lg={6} className="about-right">
             {skills.map((skill, index) => (
               <div>
                 <Zoom clear delay={index * 500}>

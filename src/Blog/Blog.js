@@ -42,6 +42,7 @@ const Blog = () => {
         setActiveLang={setActiveLang}
       />
       <BlogContainer posts={activeLang === "All" ? blog.item : filteredBlogs} />
+      <div className="blog-padding"></div>
     </Auto>
   );
 };

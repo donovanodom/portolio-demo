@@ -14,12 +14,12 @@ const Nav = () => {
     <div className="nav">
       <Link to="home">
         <div className="nav-logo">
-          <Fade delay={800} duration={1200}>
+          <Fade delay={1200} duration={1200}>
             <Logo />
           </Fade>
         </div>
       </Link>
-      <Fade left>
+      <Fade delay={1400} left>
         <div id="nav-line"></div>
       </Fade>
       <Link to="about">
