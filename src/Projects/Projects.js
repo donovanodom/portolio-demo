@@ -1,30 +1,20 @@
-import { BsGithub, BsMedium, BsLinkedin } from "react-icons/bs";
-
+import { Container, Col, Row } from "react-bootstrap";
 const Projects = () => {
-  const icon = {
-    position: "relative",
-    bottom: "2px"
-  };
+
   return (
-    <div className="contact">
-      <h1>Stay in contact!</h1>
-      <ul style={{ listStyle: "none", padding: "0" }}>
-        <li className="contact-list">
-          <a href="https://github.com/donovanodom">
-            <BsGithub style={icon} /> Github{" "}
-          </a>
-        </li>
-        <li className="contact-list">
-          <a href="https://donovanodom.medium.com/">
-            <BsMedium style={icon} /> Medium
-          </a>
-        </li>
-        <li className="contact-list">
-          <a href="https://www.linkedin.com/in/donovanodom/">
-            <BsLinkedin style={icon} /> LinkedIn
-          </a>
-        </li>
-      </ul>
+    <div className="projects">
+      <Container fluid>
+        <Row>
+          <Col className='project'>
+            <div className='project-box' id='protoswim'>
+              <h1>protoswim</h1>
+              <h2>React / Rails multi group-chatting platform for use on collaborative projects</h2>
+            </div>
+          </Col>
+          <Col>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

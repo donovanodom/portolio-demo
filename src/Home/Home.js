@@ -23,7 +23,6 @@ const Home = () => {
                 <div className="home-subtitle">
                   RUBY ON RAILS-LOVING, DESIGN-ADEPT, FULL STACK SOFTWARE
                   DEVELOPER
-                  <div style={{ display: "inline" }}> &#127783;</div>
                 </div>
                 <div id="me">
                   <Me />
@@ -31,7 +30,9 @@ const Home = () => {
               </Fade>
             </div>
             <div className="socials">
-              <div id="vert-line"></div>
+              <Fade top>
+                <div id="vert-line"></div>
+              </Fade>
               <ul style={{ listStyle: "none", padding: "0" }}>
                 <li className="contact-list">
                   <a href="https://github.com/donovanodom">
