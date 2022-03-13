@@ -16,21 +16,21 @@ const Home = () => {
           <Col xs={12}>
             <div className="home-flex">
               <div className="home-name">
-                <Fade delay={1000} duration={1000}>
+                <Fade delay={400} duration={1000}>
                   <img
                     id="home-title"
                     alt="donovan-odom"
                     src="https://i.imgur.com/zjw6YiW.png"
                   />
                 </Fade>
-                <Fade delay={1400} left>
+                <Fade delay={600} left>
                   <div className="home-subtitle">
                     RUBY ON RAILS-LOVING, DESIGN-ADEPT, FULL STACK SOFTWARE
                     DEVELOPER
                   </div>
                 </Fade>
               </div>
-              <Fade delay={1400} clear duration={2000}>
+              <Fade delay={600} clear duration={2000}>
                 <div id="me">
                   <Me />
                 </div>
