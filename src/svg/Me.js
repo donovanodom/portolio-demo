@@ -3,7 +3,6 @@ import React from "react";
 function Me() {
   return (
     <svg
-      width="25vw"
       xmlns="http://www.w3.org/2000/svg"
       shapeRendering="geometricPrecision"
       textRendering="geometricPrecision"

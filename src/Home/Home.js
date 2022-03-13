@@ -14,16 +14,18 @@ const Home = () => {
       <Container fluid>
         <Row>
           <Col xs={12}>
-            <div className="home-name">
-              <Fade delay={1000} duration={1000}>
-                <div id="home-title">DONOVAN ODOM</div>
-              </Fade>
-              <Fade delay={1400} left>
-                <div className="home-subtitle">
-                  RUBY ON RAILS-LOVING, DESIGN-ADEPT, FULL STACK SOFTWARE
-                  DEVELOPER
-                </div>
-              </Fade>
+            <div className="home-flex">
+              <div className="home-name">
+                <Fade delay={1000} duration={1000}>
+                  <div id="home-title">DONOVAN ODOM</div>
+                </Fade>
+                <Fade delay={1400} left>
+                  <div className="home-subtitle">
+                    RUBY ON RAILS-LOVING, DESIGN-ADEPT, FULL STACK SOFTWARE
+                    DEVELOPER
+                  </div>
+                </Fade>
+              </div>
               <Fade delay={1400} clear duration={2000}>
                 <div id="me">
                   <Me />
