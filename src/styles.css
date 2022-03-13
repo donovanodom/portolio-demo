@@ -533,7 +533,7 @@
     font-size: 11.4px;
     height: 100vh;
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -549,7 +549,7 @@
   .nav-null {
     z-index: 10;
     display: flex;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
