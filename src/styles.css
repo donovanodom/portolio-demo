@@ -437,7 +437,8 @@
     position: relative;
     left: 0;
     top: -20vw;
-    width: 60vw;
+    width: 40vw;
+    margin-bottom: -20vw;
   }
   .socials {
     display: none;
