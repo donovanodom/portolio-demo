@@ -20,7 +20,7 @@ const Nav = () => {
         {active ? <BsX /> : <BsList />}
       </div>
       <div className={active ? "nav" : "nav-null"}>
-        <Link to="home">
+        <Link duration={800} to="home">
           <div onClick={handlePass} className="nav-logo">
             <Fade delay={1200} duration={1200}>
               <Logo />
@@ -30,17 +30,17 @@ const Nav = () => {
         <Fade delay={1400} left>
           <div id="nav-line"></div>
         </Fade>
-        <Link to="about">
+        <Link duration={800} to="about">
           <div onClick={handlePass} className="nav-link">
             ABOUT
           </div>
         </Link>
-        <Link to="projects">
+        <Link duration={800} to="projects">
           <div onClick={handlePass} className="nav-link">
             PROJECTS
           </div>
         </Link>
-        <Link to="blog">
+        <Link duration={800} to="blog">
           <div onClick={handlePass} className="nav-link">
             BLOG
           </div>
