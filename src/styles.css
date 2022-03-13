@@ -16,12 +16,6 @@
   --overlay-silver: #75747571;
   --grey: rgb(241, 241, 241);
 }
-@font-face {
-  font-family: "Thunder-ExtraBoldLC";
-  src: url("fonts/Thunder-ExtraBoldLC.woff2") format("woff2"),
-    url("fonts/Thunder-ExtraBoldLC.ttf") format("truetype"),
-    url("fonts/Thunder-ExtraBoldLC.woff") format("woff");
-}
 .App {
   text-align: center;
   font-family: var(--sans);
@@ -49,10 +43,7 @@
   height: 100%;
 }
 #home-title {
-  height: 14vw;
-  font-family: Thunder-ExtraBoldLC;
-  font-size: 14vw;
-  letter-spacing: -0.15vw;
+  height: 11.2vw;
 }
 .home-subtitle {
   font-size: 1.963vw;
@@ -401,6 +392,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 12px;
   }
   .home-flex {
     display: flex;
@@ -418,10 +410,8 @@
     height: 100%;
   }
   #home-title {
-    height: 100%;
-    font-family: Thunder-ExtraBoldLC;
-    font-size: 20vw;
-    letter-spacing: -0.15vw;
+    height: 15.9vw;
+    margin-bottom: 9vw;
   }
   .home-subtitle {
     font-size: 14.7px;

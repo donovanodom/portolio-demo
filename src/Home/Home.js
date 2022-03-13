@@ -17,7 +17,11 @@ const Home = () => {
             <div className="home-flex">
               <div className="home-name">
                 <Fade delay={1000} duration={1000}>
-                  <div id="home-title">DONOVAN ODOM</div>
+                  <img
+                    id="home-title"
+                    alt="donovan-odom"
+                    src="https://i.imgur.com/zjw6YiW.png"
+                  />
                 </Fade>
                 <Fade delay={1400} left>
                   <div className="home-subtitle">
