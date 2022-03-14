@@ -564,6 +564,14 @@
     height: 100vh;
     color: white;
   }
+  .nav svg {
+    width: 50px;
+    transition: ease-in-out all 0.3s;
+  }
+  .nav-null svg {
+    width: 0;
+    transition: ease-in-out all 0.3s;
+  }
   .nav-toggle {
     z-index: 12;
     position: fixed;

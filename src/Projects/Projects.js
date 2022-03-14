@@ -17,8 +17,22 @@ const Projects = () => {
                     collaborative projects
                   </h2>
                   <div className="project-actions">
-                    <div className="video-demo">VIDEO DEMO</div>
-                    <div className="github-repo">GITHUB REPO</div>
+                    <div className="video-demo">
+                      <a
+                        style={{ textDecoration: "none", color: "inherit" }}
+                        href="https://youtu.be/Nt4z3Egcjns"
+                      >
+                        VIDEO DEMO
+                      </a>
+                    </div>
+                    <div className="github-repo">
+                      <a
+                        style={{ textDecoration: "none", color: "inherit" }}
+                        href="https://github.com/donovanodom/protoswim"
+                      >
+                        GITHUB REPO
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -35,8 +49,22 @@ const Projects = () => {
                     managing projects
                   </h2>
                   <div className="project-actions">
-                    <div className="video-demo">VIDEO DEMO</div>
-                    <div className="github-repo">GITHUB REPO</div>
+                    <div className="video-demo">
+                      <a
+                        style={{ textDecoration: "none", color: "inherit" }}
+                        href="https://youtu.be/qzIr3qYsC7s"
+                      >
+                        VIDEO DEMO
+                      </a>
+                    </div>
+                    <div className="github-repo">
+                      <a
+                        style={{ textDecoration: "none", color: "inherit" }}
+                        href="https://github.com/donovanodom/polymr-beta"
+                      >
+                        GITHUB REPO
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>
