@@ -33,10 +33,10 @@ const About = () => {
             developer.
             <br />
             <br />
-            As a future Alumni of Flatiron school for Computer Software
-            Engineering (Graduating Feb 2022), I am looking forward to advancing
-            my career in the tech industry and furthering my education in the
-            field while being a resource for others who have a passion for tech.
+            As an Alumni of Flatiron school for Computer Software Engineering, I
+            am looking forward to advancing my career and implementing my skills
+            the tech industry, as well as furthering my education in the field &
+            being a resource for others who have a passion for tech.
             <br />
             <br />
             I’ve worked as a freelance audio-engineer, producer & artist for the
