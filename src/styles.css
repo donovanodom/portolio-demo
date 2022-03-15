@@ -521,16 +521,17 @@
     padding: 0 3px;
   }
   .blog-card {
-    padding: 10px 12px;
+    padding: 10px 0px;
   }
   .blog-details h2 {
     font-size: 18.7px;
   }
   .blog-filter-container {
     flex-direction: column;
+    padding: 0px 12px;
   }
   .blog-filter-card {
-    padding: 0px 12px;
+    padding: 0px 8px;
   }
 
   .nav {
