@@ -3,7 +3,7 @@ import {
   BsGithub,
   BsMedium,
   BsLinkedin,
-  BsArrow90DegRight
+  BsArrow90DegRight,
 } from "react-icons/bs";
 import Fade from "react-reveal/Fade";
 import Me from "../svg/Me";
@@ -25,8 +25,7 @@ const Home = () => {
                 </Fade>
                 <Fade delay={600} left>
                   <div className="home-subtitle">
-                    RUBY ON RAILS-LOVING, DESIGN-ADEPT, FULL STACK SOFTWARE
-                    DEVELOPER
+                    TS/JS, DESIGN-ADEPT, SOFTWARE ENGINEER
                   </div>
                 </Fade>
               </div>
